@@ -1,114 +1,24 @@
 <!doctype html>
-<body>
-<style>
-
-body {
-      background-image: url("New-York-City-skyline-illuminated-at-sunset.png");
-    background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("New-York-City-skyline-illuminated-at-sunset.png");
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+<body class=parallax>
+  <head> <link rel="stylesheet" href="Stylesheet.css"> </head>
 
 
-@font-face {
-    font-family: Palatino;
-    src: url("palatino-regular.woff");
-}
-
-div {
-  font-family: Palatino;
-}
-
-/* The navigation bar */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Palatino;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-    background: #ddd;
-    color: black;
-}
-
-/* Main content */
-.main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
-.header {
-  background-color: blue;
-  height: 70px;
-}
-
-/* wrapper style */
-.wrapper {
-  display: grid;
-  grid-template-columns: 25% 25% 50%;
-}
-
-.wrapper > div{
-  background: #eee;
-  padding: 1em;
-  margin-top: 0px;
-  margin-bottom:-25px;
-}
-.wrapper > div:nth-child(odd){
-  background: #ddd;
-}
-
-h2 {
-  font-family: Palatino;
-  font-size: 35px;
-  margin-top: 50px;
-  text-attachment: fixed;
-color: black;
-}
-
-</style>
-<header>
-  </header>
-
-<h2>Work Experience</h2>
+<h3>Work Experience</h3>
 
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="About.html">About</a>
-  <a href="#writings">Writings</a>
+  <a href="Writings.html">Writings</a>
 </div>
+
 <div class="wrapper">
   <div>
   Suffolk Family YMCA
-  <p>Suffolk, VA</p>
+  <h6>Suffolk, VA</h6>
 </div>
 <div>
   Membership Associate
-  <p>June 2013 - Current</p>
+  <h6>June 2013 - Current</h6>
 </div>
 <div>
 <ul>
@@ -119,11 +29,11 @@ color: black;
 
 <div>
   Virginia Tech Special Collections
-  <p>  Blacksburg, VA</p>
+  <h6>  Blacksburg, VA</h6>
 </div>
 <div>
   Student Archivist
-  <p> August 2016 - Current </p>
+  <h6> August 2016 - Current </h6>
 </div>
 <div>
   <ul>
@@ -141,7 +51,7 @@ color: black;
 <div class="wrapper">
 <div>
 Virginia Polytechnic Institute and State University
-  <p>Blacksburg, VA </p>
+  <h6>Blacksburg, VA </h6>
 </div>
 <div>
   August 2015 - May 2019
@@ -149,13 +59,13 @@ Virginia Polytechnic Institute and State University
 
 <div>
 B.S. in Family and Consumer Sciences
-<p>B.A. in English, Professional and Technical Writing, Creative Writing </p>
-<p>Minor in History</p>
+<h6>B.A. in English, Professional and Technical Writing, Creative Writing </h6>
+<h6>Minor in History</h6>
 </div>
 
 <div>
   New York University
-  <p>  Manhattan, NY  </p>
+  <h6>  Manhattan, NY  </h6>
 </div>
 <div>
     June 2018 - July 2018
@@ -175,8 +85,8 @@ Sigma Tau Delta English Honor Society
 <div>
   President
 August 2018 - May 2019
-<p>Vice President
-August 2017-May 2018</p>
+<h6>Vice President
+August 2017-May 2018</h6>
 </div>
 
 <div>
@@ -190,8 +100,8 @@ English Club at Virginia Tech
 <div>
   President
 August 2018 - May 2019
-<p>Vice President
-August 2017-May 2018</p>
+<h6>Vice President
+August 2017-May 2018</h6>
 </div>
 
 <div>
@@ -201,5 +111,8 @@ August 2017-May 2018</p>
 </div>
 </div>
 
+<div class="footer">
+  Thanks for reading!
+</div>
 </body>
 </html>
